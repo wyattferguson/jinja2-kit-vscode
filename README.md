@@ -22,11 +22,11 @@ Usage is really simple, all the snippets are prefixed with J. Open any HTML file
 | jifelse | {% if *cond* %} {% else %} {% endif %} |
 | jextend | {% extends '*file*' %} |
 | jfor | {% for *A* in *B* %} {% endfor %} |
-| jrandom | {{ range(*MIN*, *MAX*) | random }} |
+| jrandom | {{ range(*MIN*, *MAX*) \| random }} |
 | jvar | {{ *variable* }} |
 | jfunc | {% *function* %} |
-| jround | {% *float* | round %} |
-| jjoin | {% *list* | join(',') %} |
+| jround | {% *float* \| round %} |
+| jjoin | {% *list* \| join(',') %} |
 | jset | {% set *A* = *B* %} |
 | jurl | {{ url_for('*dir*', filename='*file*') }} |
 | jcall | {% call *func* %} {% endcall %} |

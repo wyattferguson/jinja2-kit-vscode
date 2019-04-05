@@ -1,0 +1,154 @@
+{
+	"jinja block": {
+		"prefix": "jblock",
+		"body": [
+			"{% block $1 %}",
+			"",
+			"{% endblock $1 %}",
+		],
+		"description": "jinja block"
+	},
+
+	"jinja if": {
+		"prefix": "jif",
+		"body": [
+			"{% if $1 %}",
+			"",
+			"{% endif %}",
+		],
+		"description": "jinja if"
+	},
+
+	"jinja if else": {
+		"prefix": "jifelse",
+		"body": [
+			"{% if $1 %}",
+			"",
+			"{% else %}",
+			"",
+			"{% endif %}",
+		],
+		"description": "jinja if else"
+	},
+
+	"jinja extends": {
+		"prefix": "jextend",
+		"body": [
+			"{% extends '$1' %}",
+		],
+		"description": "jinja extends"
+	},
+
+	"jinja for loop": {
+		"prefix": "jfor",
+		"body": [
+			"{% for $1 in $2 %}",
+			"",
+			"{% endfor %}",
+		],
+		"description": "jinja for loop"
+	},
+
+	"jinja random": {
+		"prefix": "jrandom",
+		"body": [
+			"{{ range($1, $2) | random }}",
+		],
+		"description": "jinja random number generator"
+	},
+
+	"jinja print": {
+		"prefix": ["jprint","jvar"],
+		"body": [
+			"{{ $1 }}",
+		],
+		"description": "jinja print variable"
+	},
+
+	"jinja func": {
+		"prefix": "jfunc",
+		"body": [
+			"{% %}",
+		],
+		"description": "jinja function wrapper"
+	},
+
+	"jinja macros": {
+		"prefix": "jmacro",
+		"body": [
+			"{% macro $1 %}",
+			"",
+			"{% endmacro %}",
+		],
+		"description": "jinja macro block"
+	},
+
+	"jinja round": {
+		"prefix": "jround",
+		"body": [
+			"{% $1 | round %}",
+		],
+		"description": "jinja round a float"
+	},
+
+	"jinja join list": {
+		"prefix": "jjoin",
+		"body": [
+			"{% $1 | join(',') %}",
+		],
+		"description": "jinja join a list"
+	},
+
+	"jinja set": {
+		"prefix": "jset",
+		"body": [
+			"{% set $1 = $2 %}",
+		],
+		"description": "jinja set variable"
+	},
+
+	"jinja url": {
+		"prefix": "jurl",
+		"body": [
+			"{{ url_for('$1', filename='$2') }}",
+		],
+		"description": "jinja url for"
+	},
+
+	"jinja call": {
+		"prefix": "jcall",
+		"body": [
+			"{% call $1 %}",
+			"",
+			"{% endcall %}",
+		],
+		"description": "jinja call"
+	},
+
+	"jinja filter": {
+		"prefix": "jfilter",
+		"body": [
+			"{% filter $1 %}",
+			"",
+			"{% endfilter %}",
+		],
+		"description": "jinja filter"
+	},
+
+	"jinja include": {
+		"prefix": "jinclude",
+		"body": [
+			"{% include '$1' %}",
+		],
+		"description": "jinja include"
+	},
+
+	"jinja from": {
+		"prefix": "jfrom",
+		"body": [
+			"{% from '$1' import $2 %}",
+		],
+		"description": "jinja from"
+	},
+	
+}

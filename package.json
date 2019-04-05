@@ -1,0 +1,16 @@
+{
+	"name": "jinja-snippets",
+	"displayName": "Jinja Snippets Pack",
+	"description": "Jinja snippets for cool attractive people to use in your HTML templates.",
+	"version": "0.0.1",
+	"publisher": "Wyatt Ferguson",
+	"categories": ["Snippets"],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets.json"
+			}
+		]
+	}
+}

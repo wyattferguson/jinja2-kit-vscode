@@ -2,13 +2,12 @@
 
 This extension bundles up all your most used jinja snippets for use in your HTML templates. Also I put in a few useful ones for things like generating numbers, joining lists, and the like.
 
+
 ## Installation
 
-1. Download this nice extension
+Direct instalation is availible in the VS Code marketplace, just do a search for "Jinja2" and we should pop right up.
 
-2. Copy it into <code>.vscode/extensions</code>
-
-3. Restart VSCode 
+You can direct download the pluggin from [Marketplace Site](https://marketplace.visualstudio.com/items?itemName=WyattFerguson.jinja2-snippet-kit) 
 
 ## Usage
 
@@ -34,5 +33,14 @@ Usage is really simple, all the snippets are prefixed with J. Open any HTML file
 | jinclude | {% include '*file*' %} |
 | jfrom | {% from '*dir*' import *func* %} |
 
+
+## Version
+- 1.0.0 - First working version released on vscode marketplace
+
+## Credit and Contact
+
+Created by Wyatt Ferguson
+
+For any comments or questions your can reach me on Twitter [@wyattferguson](https://twitter.com/wyattferguson)
 
 

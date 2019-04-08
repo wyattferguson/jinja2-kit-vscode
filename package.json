@@ -1,10 +1,24 @@
 {
-	"name": "jinja-snippets",
-	"displayName": "Jinja Snippets Pack",
-	"description": "Jinja snippets for cool attractive people to use in your HTML templates.",
+	"name": "jinja2-snippet-kit",
+	"displayName": "Jinja2 Snippet Kit",
+	"description": "Jinja2 snippets for cool attractive people to use in your HTML templates.",
+	"author": {
+		"name": "Wyatt Ferguson"
+	},
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wyattferguson/jinja2-kit-vscode.git"
+	},
 	"version": "0.0.1",
-	"publisher": "Wyatt Ferguson",
+	"publisher": "WyattFerguson",
 	"categories": ["Snippets"],
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"keywords": [
+		"jinja", "jinja2","snippets","flask"
+	],
 	"contributes": {
 		"snippets": [
 			{

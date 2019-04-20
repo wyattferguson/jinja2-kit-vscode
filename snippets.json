@@ -8,6 +8,14 @@
 		],
 		"description": "jinja block"
 	},
+	
+	"jinja set": {
+		"prefix": "jset",
+		"body": [
+			"{% set $1 = $2 %}",
+		],
+		"description": "jinja set"
+	},
 
 	"jinja if": {
 		"prefix": "jif",

@@ -33,7 +33,7 @@ Usage is really simple, all the snippets are prefixed with J. Open any HTML file
 | jinclude | {% include '*file*' %} |
 | jfrom | {% from '*dir*' import *func* %} |
 | jimg | <img src=\"{{ url_for('static', filename='A') }}\" alt="B"> |
-| jhref | \<a href=\"{{ url_for('A') }}"> B \</a> |
+| jhref | a href with url_for embed |
 
 
 ## Version

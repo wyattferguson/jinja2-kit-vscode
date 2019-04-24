@@ -32,10 +32,13 @@ Usage is really simple, all the snippets are prefixed with J. Open any HTML file
 | jfilter | {% filter *cmd* %} {% endfilter %} |
 | jinclude | {% include '*file*' %} |
 | jfrom | {% from '*dir*' import *func* %} |
+| jimg | <img src=\"{{ url_for('static', filename='A') }}\" alt="B"> |
+| jhref | \<a href=\"{{ url_for('A') }}"> B \</a> |
 
 
 ## Version
-- 1.0.0 - First working version released on vscode marketplace
+- 1.1 - Added jimg and jhref tags
+- 1.0 - First working version released on vscode marketplace
 
 ## Credit and Contact
 

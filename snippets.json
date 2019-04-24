@@ -150,5 +150,22 @@
 		],
 		"description": "jinja from"
 	},
+
+	"jinja image": {
+		"prefix": "jimg",
+		"body": [
+			"<img src=\"{{ url_for('static', filename='$1') }}\" alt=\"$2\">",
+		],
+		"description": "img tag with url_for"
+	},
+
+	"jinja href": {
+		"prefix": "jhref",
+		"body": [
+			"<a href=\"{{ url_for('$1') }}\">$2</a>",
+		],
+		"description": "a tag with url_for"
+	},
+
 	
 }

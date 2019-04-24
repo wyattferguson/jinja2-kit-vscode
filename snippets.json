@@ -107,14 +107,6 @@
 		"description": "jinja join a list"
 	},
 
-	"jinja set": {
-		"prefix": "jset",
-		"body": [
-			"{% set $1 = $2 %}",
-		],
-		"description": "jinja set variable"
-	},
-
 	"jinja url": {
 		"prefix": "jurl",
 		"body": [

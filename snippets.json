@@ -76,7 +76,7 @@
 	"jinja func": {
 		"prefix": "jfunc",
 		"body": [
-			"{% %}",
+			"{% $0 %}",
 		],
 		"description": "jinja function wrapper"
 	},

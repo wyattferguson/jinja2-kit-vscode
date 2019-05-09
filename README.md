@@ -37,6 +37,7 @@ Usage is really simple, all the snippets are prefixed with J. Open any HTML file
 
 
 ## Version
+- 1.1.2 - Improved jfunc, fixed logo
 - 1.1 - Added jimg and jhref tags
 - 1.0 - First working version released on vscode marketplace
 

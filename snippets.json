@@ -21,7 +21,7 @@
 		"prefix": "jif",
 		"body": [
 			"{% if $1 %}",
-			"",
+			"$2",
 			"{% endif %}",
 		],
 		"description": "jinja if"
@@ -31,9 +31,9 @@
 		"prefix": "jifelse",
 		"body": [
 			"{% if $1 %}",
-			"",
+			"$2",
 			"{% else %}",
-			"",
+			"$3",
 			"{% endif %}",
 		],
 		"description": "jinja if else"
@@ -51,7 +51,7 @@
 		"prefix": "jfor",
 		"body": [
 			"{% for $1 in $2 %}",
-			"",
+			"    $3",
 			"{% endfor %}",
 		],
 		"description": "jinja for loop"

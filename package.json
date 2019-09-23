@@ -10,7 +10,7 @@
 		"type": "git",
 		"url": "https://github.com/wyattferguson/jinja2-kit-vscode.git"
 	},
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"publisher": "WyattFerguson",
 	"categories": ["Snippets"],
 	"engines": {
@@ -23,6 +23,78 @@
 		"snippets": [
 			{
 				"language": "html",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-py",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-css",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-sql",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-html",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-json",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-rb",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-toml",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-yaml",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-latex",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-groovy",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-md",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-terraform",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-dockerfile",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-js",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-shell",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-systemd",
+				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-properties",
 				"path": "./snippets.json"
 			}
 		]

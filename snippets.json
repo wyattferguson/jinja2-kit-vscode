@@ -4,7 +4,7 @@
 		"body": [
 			"{% block $1 %}",
 			"",
-			"{% endblock $1 %}",
+			"{% endblock %}",
 		],
 		"description": "jinja block"
 	},

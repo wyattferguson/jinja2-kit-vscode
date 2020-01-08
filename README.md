@@ -37,6 +37,7 @@ Usage is really simple, all the snippets are prefixed with J. Open any HTML file
 
 
 ## Version
+- 1.3 - Multiple language type support added (Thanks to jk464)
 - 1.2 - Added tab points in loops (Thanks to IamPhytan)
 - 1.1.2 - Improved jfunc, fixed logo
 - 1.1 - Added jimg and jhref tags

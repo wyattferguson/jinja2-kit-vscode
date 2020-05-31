@@ -3,8 +3,8 @@
 		"prefix": "jblock",
 		"body": [
 			"{% block $1 %}",
-			"",
-			"{% endblock $1 %}",
+			"\t$0",
+			"{% endblock $1 %}"
 		],
 		"description": "jinja block"
 	},
@@ -12,7 +12,7 @@
 	"jinja set": {
 		"prefix": "jset",
 		"body": [
-			"{% set $1 = $2 %}",
+			"{% set $1 = $2 %}"
 		],
 		"description": "jinja set"
 	},
@@ -21,8 +21,8 @@
 		"prefix": "jif",
 		"body": [
 			"{% if $1 %}",
-			"$2",
-			"{% endif %}",
+			"\t$0",
+			"{% endif %}"
 		],
 		"description": "jinja if"
 	},
@@ -31,10 +31,10 @@
 		"prefix": "jifelse",
 		"body": [
 			"{% if $1 %}",
-			"$2",
+			"\t$2",
 			"{% else %}",
-			"$3",
-			"{% endif %}",
+			"\t$3",
+			"{% endif %}"
 		],
 		"description": "jinja if else"
 	},
@@ -42,7 +42,7 @@
 	"jinja extends": {
 		"prefix": "jextend",
 		"body": [
-			"{% extends '$1' %}",
+			"{% extends '$1.html' %}$0"
 		],
 		"description": "jinja extends"
 	},
@@ -51,8 +51,8 @@
 		"prefix": "jfor",
 		"body": [
 			"{% for $1 in $2 %}",
-			"    $3",
-			"{% endfor %}",
+			"\t$0",
+			"{% endfor %}"
 		],
 		"description": "jinja for loop"
 	},
@@ -60,7 +60,7 @@
 	"jinja random": {
 		"prefix": "jrandom",
 		"body": [
-			"{{ range($1, $2) | random }}",
+			"{{ range($1, $2) | random }}"
 		],
 		"description": "jinja random number generator"
 	},
@@ -68,7 +68,7 @@
 	"jinja print": {
 		"prefix": ["jprint","jvar"],
 		"body": [
-			"{{ $1 }}",
+			"{{ $1 }}$0"
 		],
 		"description": "jinja print variable"
 	},
@@ -76,7 +76,7 @@
 	"jinja func": {
 		"prefix": "jfunc",
 		"body": [
-			"{% $0 %}",
+			"{% $1 %}$0"
 		],
 		"description": "jinja function wrapper"
 	},
@@ -85,8 +85,8 @@
 		"prefix": "jmacro",
 		"body": [
 			"{% macro $1 %}",
-			"",
-			"{% endmacro %}",
+			"\t$0",
+			"{% endmacro %}"
 		],
 		"description": "jinja macro block"
 	},
@@ -94,7 +94,7 @@
 	"jinja round": {
 		"prefix": "jround",
 		"body": [
-			"{% $1 | round %}",
+			"{% $1 | round %}$0"
 		],
 		"description": "jinja round a float"
 	},
@@ -102,7 +102,7 @@
 	"jinja join list": {
 		"prefix": "jjoin",
 		"body": [
-			"{% $1 | join(',') %}",
+			"{% $1 | join(',') %}$0"
 		],
 		"description": "jinja join a list"
 	},
@@ -110,7 +110,7 @@
 	"jinja url": {
 		"prefix": "jurl",
 		"body": [
-			"{{ url_for('$1', filename='$2') }}",
+			"{{ url_for('$1', filename='$2') }}$0"
 		],
 		"description": "jinja url for"
 	},
@@ -119,8 +119,8 @@
 		"prefix": "jcall",
 		"body": [
 			"{% call $1 %}",
-			"",
-			"{% endcall %}",
+			"\t$0",
+			"{% endcall %}"
 		],
 		"description": "jinja call"
 	},
@@ -129,8 +129,8 @@
 		"prefix": "jfilter",
 		"body": [
 			"{% filter $1 %}",
-			"",
-			"{% endfilter %}",
+			"\t$0",
+			"{% endfilter %}"
 		],
 		"description": "jinja filter"
 	},
@@ -138,7 +138,7 @@
 	"jinja include": {
 		"prefix": "jinclude",
 		"body": [
-			"{% include '$1' %}",
+			"{% include '$1.html' %}$0"
 		],
 		"description": "jinja include"
 	},
@@ -146,7 +146,7 @@
 	"jinja from": {
 		"prefix": "jfrom",
 		"body": [
-			"{% from '$1' import $2 %}",
+			"{% from '$1' import $2 %}"
 		],
 		"description": "jinja from"
 	},
@@ -154,7 +154,7 @@
 	"jinja image": {
 		"prefix": "jimg",
 		"body": [
-			"<img src=\"{{ url_for('static', filename='$1') }}\" alt=\"$2\">",
+			"<img src=\"{{ url_for('static', filename='$1') }}\" alt=\"$2\">$0"
 		],
 		"description": "img tag with url_for"
 	},
@@ -162,10 +162,10 @@
 	"jinja href": {
 		"prefix": "jhref",
 		"body": [
-			"<a href=\"{{ url_for('$1') }}\">$2</a>",
+			"<a href=\"{{ url_for('$1') }}\">$2</a>$0"
 		],
 		"description": "a tag with url_for"
-	},
+	}
 
 	
 }

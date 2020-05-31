@@ -3,8 +3,8 @@
 		"prefix": "jblock",
 		"body": [
 			"{% block $1 %}",
-			"\t$0",
-			"{% endblock $1 %}"
+			"\t$2",
+			"{% endblock $1 %}$0"
 		],
 		"description": "jinja block"
 	},

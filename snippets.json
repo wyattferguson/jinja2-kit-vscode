@@ -165,6 +165,14 @@
 			"<a href=\"{{ url_for('$1') }}\">$2</a>$0"
 		],
 		"description": "a tag with url_for"
+	},
+	
+	"jinja comment": {
+		"prefix": "jcom",
+		"body": [
+			"{# $1 #}$0"
+		],
+		"description": "jinja comment"
 	}
 
 	

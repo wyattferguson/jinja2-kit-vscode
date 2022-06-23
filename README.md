@@ -44,15 +44,14 @@ Usage is really simple, all the snippets are prefixed with J. Open any HTML file
 
 ## :postbox: Credit, Contact & Support
 
-Created by [Wyatt Ferguson](https://twitter.com/programmingsux)
+Created by [Wyatt Ferguson](https://twitter.com/wyattxdev)
 
-For any comments or questions your can reach me on Twitter [@programmingsux](https://twitter.com/programmingsux) or visit my little portfolio at [wyattf.dev](https://wyattf.dev)
+For any comments or questions your can reach me on Twitter [@wyattxdev](https://twitter.com/wyattxdev) or visit my little portfolio at [wyattf.dev](https://wyattf.dev)
 
 If you like my theme and want to support me
 
 ### [:coffee: Buy Me A Coffee](https://www.buymeacoffee.com/wyattferguson)
 
-### [:zap: Follow me on Twitter](https://twitter.com/programmingsux)
+### [:zap: Follow me on Twitter](https://twitter.com/wyattxdev)
 
-### [:bus: Follow me on DEV.to](https://dev.to/wyattferguson)
 

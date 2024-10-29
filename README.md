@@ -38,8 +38,8 @@ Usage is really simple, all the snippets are prefixed with J. Open any HTML file
 
 Created by [Wyatt Ferguson](https://twitter.com/wyattxdev)
 
-For any questions or comments you can send them to me on my socials:
-### :shaved_ice: Follow on [Mastodon @wyattxdev@mastodon.social](@wyattxdev@mastodon.social)
+For any questions or comments heres how you can reach me:
+### :shaved_ice: Follow on [BlueSky @wyattf](wyattf.bsky.social)
 ### :tropical_drink: Follow on [Twitter @wyattxdev](https://twitter.com/wyattxdev)
 
 

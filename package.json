@@ -104,6 +104,10 @@
 			{
 				"language": "jinja-properties",
 				"path": "./snippets.json"
+			},
+			{
+				"language": "jinja-xml",
+				"path": "./snippets.json"
 			}
 		]
 	}

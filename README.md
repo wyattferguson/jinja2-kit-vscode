@@ -10,7 +10,7 @@ You can direct download the pluggin from [Marketplace Site](https://marketplace.
 
 ## :coffee: Usage
 
-Usage is really simple, all the snippets are prefixed with J. Open any HTML file and type J to see a full listing of all the availible snippets.
+Usage is really simple, all the snippets are prefixed with J. Open any HTML or XML file and type J to see a full listing of all the availible snippets.
 
 | Prefix   | Output                                                      |
 | -------- | ----------------------------------------------------------- |
@@ -31,19 +31,19 @@ Usage is really simple, all the snippets are prefixed with J. Open any HTML file
 | jinclude | {% include '*file*' %}                                      |
 | jfrom    | {% from '*dir*' import *func* %}                            |
 | jimg     | <img src=\"{{ url_for('static', filename='A') }}\" alt="B"> |
-| jhref    | a href with url_for embed                                   |
-
+| jhref    | <a href="{{ url_for('*url*') }}\"> </a>                     |
+| jcom     | {# '_comment_' #}                                           |
 
 ## :postbox: Contact & Support
 
 Created by [Wyatt Ferguson](https://wyattf.bsky.social)
 
 For any questions or comments heres how you can reach me:
+
 ### :mailbox_with_mail: Email me at [wyattxdev@duck.com](wyattxdev@duck.com)
+
 ### :tropical_drink: Follow on [BlueSky @wyattf](https://wyattf.bsky.social)
 
-
 If you find this useful and want to tip me a little coffee money:
+
 ### :coffee: [Buy Me A Coffee](https://www.buymeacoffee.com/wyattferguson)
-
-

@@ -2,6 +2,7 @@
 
 - Added html support
 - Added xml support
+- Added comment snippet
 
 #### 2.0.0 (2020-05-31)
 

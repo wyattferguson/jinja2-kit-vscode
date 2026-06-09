@@ -1,114 +1,114 @@
 {
-	"name": "jinja2-snippet-kit",
-	"displayName": "Jinja2 Snippet Kit",
-	"description": "Jinja2 snippets for cool attractive people to use in your HTML templates.",
-	"author": {
-		"name": "Wyatt Ferguson"
-	},
-	"icon": "icon.png",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/wyattferguson/jinja2-kit-vscode.git"
-	},
-	"version": "2.0.0",
-	"publisher": "WyattFerguson",
-	"categories": [
-		"Snippets"
-	],
-	"engines": {
-		"vscode": "^1.0.0"
-	},
-	"keywords": [
-		"jinja",
-		"jinja2",
-		"snippets",
-		"flask",
-		"python",
-		"django",
-		"j2"
-	],
-	"contributes": {
-		"snippets": [
-			{
-				"language": "html",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-py",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-css",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-sql",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-html",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-json",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-rb",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-toml",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-yaml",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-latex",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-groovy",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-md",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-terraform",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-dockerfile",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-js",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-shell",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-systemd",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-properties",
-				"path": "./snippets.json"
-			},
-			{
-				"language": "jinja-xml",
-				"path": "./snippets.json"
-			}
-		]
-	}
+  "name": "jinja2-snippet-kit",
+  "displayName": "Jinja2 Snippet Kit",
+  "description": "Jinja2 snippets for cool attractive people to use in your HTML templates.",
+  "author": {
+    "name": "Wyatt Ferguson"
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyattferguson/jinja2-kit-vscode.git"
+  },
+  "version": "2.1.0",
+  "publisher": "WyattFerguson",
+  "categories": [
+    "Snippets"
+  ],
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "keywords": [
+    "jinja",
+    "jinja2",
+    "snippets",
+    "flask",
+    "python",
+    "django",
+    "j2"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-py",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-css",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-sql",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-html",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-json",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-rb",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-toml",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-yaml",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-latex",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-groovy",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-md",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-terraform",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-dockerfile",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-js",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-shell",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-systemd",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-properties",
+        "path": "./snippets.json"
+      },
+      {
+        "language": "jinja-xml",
+        "path": "./snippets.json"
+      }
+    ]
+  }
 }

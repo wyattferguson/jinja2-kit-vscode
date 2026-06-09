@@ -1,3 +1,8 @@
+#### 2.1.0 (2026-06-09)
+
+- Added html support
+- Added xml support
+
 #### 2.0.0 (2020-05-31)
 
 ”updated readme”
